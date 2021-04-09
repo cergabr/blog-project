@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Gabriele Cerqueglini">
+		<link href="./style.css" rel="stylesheet" type="text/css">
+		<meta name="keywords" content="blog demo">
+		<meta name="description" content="demo blog for udacity">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=0.5">
+		<title>Demo blog - About</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav>
+					<a href="./index.html"><img src="./img/logowhite.png" alt="blog logo"></a>
+					<input id="mob-menu" type="checkbox">
+					<label for="mob-menu">
+						<img src="./img/menu_ham.png" alt="hamburger menu icon">
+						<img src="./img/icon-close.svg" alt="black cross icon (menu close)">
+					</label>
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li class="sub-menu">
+							<span>Archive</span>
+							<input id="mob-sub-menu" type="checkbox">
+							<label for="mob-sub-menu">Archive</label>
+							<ul>
+								<li class="sub-sub-menu">
+									<span>Jan 2021</span>
+									<input id="mob-sub-subJan" type="checkbox">
+									<label for="mob-sub-subJan">Jan 2021</label>
+									<ul>
+										<li><a href="./blogpost1.html">Post 1</a></li>
+									</ul>
+								</li>
+								<li class="sub-sub-menu">
+									<span>Feb 2021</span>
+									<input id="mob-sub-subFeb" type="checkbox">
+									<label for="mob-sub-subFeb">Feb 2021</label>
+									<ul>
+										<li><a href="./blogpost2.html">Post 2</a></li>
+										<li><a href="./blogpost3.html">Post 3</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="./about.html" class="selected">About</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+						<li><a class="a-button" href="#nwslform-popup">Subscribe</a></li>
+					</ul>
+					<a class="a-button" href="#nwslform-popup">Subscribe</a>
+				</nav>
+			</header>
+			<main class="about">
+				<h1 class="no-hide">About</h1>
+				<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Nulla varius libero mattis arcu euismod, sit amet dignissim quam accumsan. Pellentesque fermentum neque erat, sit amet suscipit sem accumsan a. Ut non lorem quis libero venenatis malesuada a in arcu. Donec sit amet nisl sed ante sollicitudin blandit. Phasellus fermentum, enim vel lacinia elementum, ante mauris venenatis mauris, ac tempor orci turpis pulvinar felis. Donec tempor tortor sit amet magna venenatis convallis. Integer vel laoreet tortor, non euismod erat. Cras imperdiet turpis leo, vitae hendrerit magna convallis quis. Vivamus ac tortor at augue pulvinar cursus. Praesent aliquet posuere orci semper pretium. Duis faucibus neque enim, eu blandit tortor congue in.</p>
+				<p>Donec in nunc eros. Aliquam eget imperdiet mauris. Praesent congue eu urna in placerat. Nunc tempor elementum metus et elementum. Ut rhoncus mi in nulla rhoncus, at tempus lectus luctus. Maecenas lacinia vel mauris porttitor molestie. Proin eu sollicitudin arcu. Maecenas vel cursus sapien. Mauris sagittis ut risus at lobortis. Integer vitae commodo sapien. Sed eget urna justo. Integer vitae interdum turpis, id feugiat massa.</p>
+			</main>
+			<footer>
+				<article class="ft-logo">
+					<img src="./img/logofoot.png" alt="blog logo">
+					<h4>Demo Blog</h4> 
+					<p>the frog finds a clog</p>
+				</article>
+				<article class="ft-social">
+					<h4>Follow us on:</h4>
+					<div>
+						<a href="#"><img src="./img/facebook.svg" alt="facebook logo"></a>
+						<a href="#"><img src="./img/instagram.jpg" alt="instagram logo"></a>
+						<a href="#"><img src="./img/icon-twitter.svg" alt="twitter logo"></a>
+					</div>
+				</article>
+				<article class="ft-mail">
+					<img src="./img/email.png" alt="mail illustration">
+					<h4>Mail: </h4>
+					<p>demoexample123@mail.com</p>
+				</article>
+				<div class="ft-list">
+					<p>&copy; 2021 Demo Blog. All rights reserved. 
+					<br><a class="text-link" href="#">Cookie &amp; Privacy Policy</a>
+					</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

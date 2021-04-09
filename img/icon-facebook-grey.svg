@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 1600 1600"
+   role="img"
+   aria-hidden="true"
+   focusable="false"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="icon-facebook-grey.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.39332815"
+     inkscape:cx="820.10565"
+     inkscape:cy="1004.7797"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g6">
+    <path
+       fill="#1877f2"
+       d="M1600 800a800 800 0 1 0-925 790v-559H472V800h203V624c0-201 119-311 302-311 88 0 179 15 179 15v197h-101c-99 0-130 62-130 125v150h222l-36 231H925v559a800 800 0 0 0 675-790"
+       id="path2"
+       style="fill:#333333;fill-opacity:1" />
+    <path
+       fill="#fff"
+       d="M1147 800H925V650c0-63 31-125 130-125h101V328s-91-15-179-15c-183 0-302 110-302 311v176H472v231h203v559a806 806 0 0 0 250 0v-559h186z"
+       id="path4"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+</svg>

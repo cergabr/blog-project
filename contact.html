@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Gabriele Cerqueglini">
+		<link href="./style.css" rel="stylesheet" type="text/css">
+		<meta name="keywords" content="blog demo">
+		<meta name="description" content="demo blog for udacity">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=0.5">
+		<title>Demo blog - Contact</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav>
+					<a href="./index.html"><img src="./img/logowhite.png" alt="blog logo"></a>
+					<input id="mob-menu" type="checkbox">
+					<label for="mob-menu">
+						<img src="./img/menu_ham.png" alt="hamburger menu icon">
+						<img src="./img/icon-close.svg" alt="black cross icon (menu close)">
+					</label>
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li class="sub-menu">
+							<span>Archive</span>
+							<input id="mob-sub-menu" type="checkbox">
+							<label for="mob-sub-menu">Archive</label>
+							<ul>
+								<li class="sub-sub-menu">
+									<span>Jan 2021</span>
+									<input id="mob-sub-subJan" type="checkbox">
+									<label for="mob-sub-subJan">Jan 2021</label>
+									<ul>
+										<li><a href="./blogpost1.html">Post 1</a></li>
+									</ul>
+								</li>
+								<li class="sub-sub-menu">
+									<span>Feb 2021</span>
+									<input id="mob-sub-subFeb" type="checkbox">
+									<label for="mob-sub-subFeb">Feb 2021</label>
+									<ul>
+										<li><a href="./blogpost2.html">Post 2</a></li>
+										<li><a href="./blogpost3.html">Post 3</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="./contact.html" class="selected">Contact</a></li>
+						<li><a class="a-button" href="#nwslform-popup">Subscribe</a></li>
+					</ul>
+					<a class="a-button" href="#nwslform-popup">Subscribe</a>
+				</nav>
+			</header>
+			<main class="contact">
+				<h1 class="no-hide">Contact</h1>
+				<article>
+					<h2>Email:</h2>
+					<p>demoexample123@mail.com</p>
+					<h2>Address:</h2>
+					<address>Via Bolognese 1, 40100, Bologna (BO)</address>
+				</article>
+			</main>
+			<footer>
+				<article class="ft-logo">
+					<img src="./img/logofoot.png" alt="blog logo">
+					<h4>Demo Blog</h4> 
+					<p>the frog slaps the dog</p>
+				</article>
+				<article class="ft-social">
+					<h4>Follow us on:</h4>
+					<div>
+						<a href="#"><img src="./img/facebook.svg" alt="facebook logo"></a>
+						<a href="#"><img src="./img/instagram.jpg" alt="instagram logo"></a>
+						<a href="#"><img src="./img/icon-twitter.svg" alt="twitter logo"></a>
+					</div>
+				</article>
+				<article class="ft-mail">
+					<img src="./img/email.png" alt="mail illustration">
+					<h4>Mail:</h4>
+					<p>demoexample123@mail.com</p>
+				</article>
+				<div class="ft-list">
+					<p>&copy; 2021 Demo Blog. All rights reserved. 
+					<br><a class="text-link" href="#">Cookie &amp; Privacy Policy</a>
+					</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

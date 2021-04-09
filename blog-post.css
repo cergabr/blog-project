@@ -1,0 +1,223 @@
+aside.blog-post
+	{
+		grid-area: 2/1/4/1;
+	}
+main.blog-post
+	{
+		grid-area: 2/2/4/8;
+	}
+main .post-page
+	{
+		padding-left: 20vw;
+		padding-right: 20vw;
+		margin-bottom:100px;
+	}
+main .post-page h1
+	{
+		font-size: 50px;
+		text-align: left;
+	}
+main .post-page h2
+	{
+		font-size: 32px;
+	}
+main .post-page > p
+	{
+		text-align: justify;
+		font-size: 20px;
+		margin-top:20px;
+
+	}
+main > article > p.date-author
+	{
+		font-size:16px;
+		margin-top:5px;
+		margin-bottom:30px;
+	}
+main .post-page figure
+	{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+main .post-page figure img
+	{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+main .post-page .author-box
+	{
+		max-width: 550px;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+		margin-top:100px;
+		padding: 12px 15px 12px 15px;
+		display:flex;
+		flex-flow:row wrap;
+	}
+main .post-page .author-box h3
+	{
+		font-size:24px;
+		font-style:italic;
+		margin-bottom:20px;
+		flex-basis: 100%;
+	}
+main .post-page .author-box div
+	{
+		flex-basis: 20%;
+	}
+main .post-page .author-box > div > img
+	{
+		width:100px;
+		display:block;
+		margin-bottom:8px;
+	}
+main .post-page .author-box > div > span
+	{
+		display:block;
+		text-transform: uppercase;
+		color:#7a7a7a;
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom:2px;
+	}
+main .post-page .author-box > div a img
+	{
+		width:30px;
+	}
+main .post-page .author-box > div a img:hover
+	{
+		filter:invert(1);
+	}
+main .post-page .author-box p
+	{
+		flex-basis:68%;
+		font-size:18px;
+		margin-top:0;
+		margin-left:auto;
+		margin-right:auto;
+	}
+main .post-page .author-box p a
+	{
+		display: inline-block;
+	}
+main .post-page + section
+	{
+		padding-left: 20vw;
+		padding-right: 20vw;
+		margin-bottom: 10%;
+		padding-top:2%;
+		border-top: 1px solid #4c4c4c7a;
+	}
+main .post-page + section h3
+	{
+		text-transform: uppercase;
+		margin-bottom:30px;
+		color:#4d4d4d;
+	}
+main .post-page + section li
+	{
+		margin-top:20px;
+		font-size:24px;
+	}
+@media screen and (min-width:641px) and (max-width:1024px)
+    {
+    	main.blog-post	
+			{
+				grid-area: 2/1/4/8;
+			}
+		main .post-page
+			{
+				padding-left: 15%;
+				padding-right: 15%;
+				padding-bottom: 15%;
+			}
+		main .post-page h1
+			{
+				font-size: 44px;
+			}
+		main > article > p.date-author
+			{
+				font-size:16px;
+				margin-top:5px;
+				margin-bottom:30px;
+			}
+    }
+
+@media screen and (max-width:640px)
+	{
+		main.blog-post
+			{
+				grid-area: 2/1/4/8;
+				padding-top:30px;
+			}
+		main .post-page h1
+			{
+				font-size:36px;
+				text-align: left;
+			}
+		main .post-page h2
+			{
+				font-size: 28px;
+			}
+		main .post-page {
+				padding-left: 5%;
+				padding-right: 5%;
+				padding-bottom: 15%;
+				margin-bottom:80px;
+			}
+		main .post-page > p
+			{
+				font-size: 16px;
+			}
+		main .post-page > blockquote.paratext > p
+			{
+				font-size:13px;
+			}
+		main > article > p.date-author
+			{
+				font-size:13px;
+				margin-top:5px;
+				margin-bottom:30px;
+			}
+		main .post-page .author-box
+			{
+				margin-top:80px;
+				padding:2%;
+				padding-bottom:3%;
+				display:inline-block;
+			}
+		main .post-page .author-box h3
+			{
+				font-size:22px;
+				margin-bottom:10px;
+			}
+		main .post-page .author-box div
+			{
+				float:left;
+				padding-right:8px;
+			}
+		main .post-page .author-box > div > span
+			{
+				display:none;
+			}
+		main .post-page .author-box p
+			{
+				font-size:16px;
+			}
+		main .post-page + section
+			{
+				padding-left: 5vw;
+				padding-right: 5vw;
+				margin-bottom: 25%;
+				padding-top:2%;
+			}
+		main .post-page + section h3
+			{
+				font-size:28px;
+			}
+		main .post-page + section li
+			{
+				margin-top:20px;
+				font-size:21px;
+			}
+	}
