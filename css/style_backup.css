@@ -1,84 +1,84 @@
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-ExtraLight.ttf") format("TrueType");
+	src: url("../fonts/Barlow-ExtraLight.ttf") format("TrueType");
 	font-weight:200;
 	font-style:normal;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-ExtraLightItalic.ttf") format("TrueType");
+	src: url("../fonts/Barlow-ExtraLightItalic.ttf") format("TrueType");
 	font-weight:200;
 	font-style:italic;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-Regular.ttf") format("TrueType");
+	src: url("../fonts/Barlow-Regular.ttf") format("TrueType");
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-Italic.ttf") format("TrueType");
+	src: url("../fonts/Barlow-Italic.ttf") format("TrueType");
 	font-weight:normal;
 	font-style:italic;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-Medium.ttf") format("TrueType");
+	src: url("../fonts/Barlow-Medium.ttf") format("TrueType");
 	font-weight:500;
 	font-style:normal;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-MediumItalic.ttf") format("TrueType");
+	src: url("../fonts/Barlow-MediumItalic.ttf") format("TrueType");
 	font-weight:500;
 	font-style:italic;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-SemiBold.ttf") format("TrueType");
+	src: url("../fonts/Barlow-SemiBold.ttf") format("TrueType");
 	font-weight:600;
 	font-style:normal;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-SemiBoldItalic.ttf") format("TrueType");
+	src: url("../fonts/Barlow-SemiBoldItalic.ttf") format("TrueType");
 	font-weight:600;
 	font-style:italic;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-Bold.ttf") format("TrueType");
+	src: url("../fonts/Barlow-Bold.ttf") format("TrueType");
 	font-weight:bold;
 	font-style:normal;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-BoldItalic.ttf") format("TrueType");
+	src: url("../fonts/Barlow-BoldItalic.ttf") format("TrueType");
 	font-weight:700;
 	font-style:italic;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-Black.ttf") format("TrueType");
+	src: url("../fonts/Barlow-Black.ttf") format("TrueType");
 	font-weight:900;
 	font-style:normal;
 }
 @font-face
 {
 	font-family:"Barlow-Regular";
-	src: url("./fonts/Barlow-BlackItalic.ttf") format("TrueType");
+	src: url("../fonts/Barlow-BlackItalic.ttf") format("TrueType");
 	font-weight:900;
 	font-style:italic;
 }
