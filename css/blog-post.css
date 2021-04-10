@@ -26,7 +26,10 @@ main .post-page > p
 		text-align: justify;
 		font-size: 20px;
 		margin-top:20px;
-
+	}
+main .post-page u
+	{
+		text-decoration: underline;
 	}
 main > article > p.date-author
 	{

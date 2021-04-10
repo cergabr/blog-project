@@ -1,6 +1,6 @@
-@import url("./about.css");
-@import url("./contact.css");
-@import url("./blog-post.css");
+@import url("./css/about.css");
+@import url("./css/contact.css");
+@import url("./css/blog-post.css");
 
 @font-face
 {
