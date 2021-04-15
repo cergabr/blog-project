@@ -2,4 +2,4 @@
 
 Project Work for Udacity Class "Front End Web Developer Nanodegree Program".
 
-Personal Blog Site
+Blog Site Sample
